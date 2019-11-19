@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_j4omoQB5Eeq9a9cVUl2Xpg" name="lista_espera_blo" dataPackage="_j4omogB5Eeq9a9cVUl2Xpg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Nuno/Desktop/AIB/AIB20192020-master/lista_espera_blo.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_j4omogB5Eeq9a9cVUl2Xpg" name="default" dataManager="_j4omoQB5Eeq9a9cVUl2Xpg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_j4omowB5Eeq9a9cVUl2Xpg" id="_rE-uAAB4Eeq9a9cVUl2Xpg" label="lista_espera_blo">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4ompAB5Eeq9a9cVUl2Xpg" label="DES_GRUPO" length="210" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4ompQB5Eeq9a9cVUl2Xpg" label="NUM_SEQUENCIAL" length="10" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4ompgB5Eeq9a9cVUl2Xpg" label="DTA_MARCACAO" length="10" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4ompwB5Eeq9a9cVUl2Xpg" label="DTA_CANCEL" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omqAB5Eeq9a9cVUl2Xpg" label="DTA_OPERADO" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omqQB5Eeq9a9cVUl2Xpg" label="NUM_ADMISSAO" length="10" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omqgB5Eeq9a9cVUl2Xpg" label="NUM_LISTA_ESPERA" length="10" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omqwB5Eeq9a9cVUl2Xpg" label="DES_PATOLOGIA" length="250" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omrAB5Eeq9a9cVUl2Xpg" label="NUM_PROCESSO" length="10" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_j4omrQB5Eeq9a9cVUl2Xpg" label="DES_INTERV_CIRURGICA" length="250" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

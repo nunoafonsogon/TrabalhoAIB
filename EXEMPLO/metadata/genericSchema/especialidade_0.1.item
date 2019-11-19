@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_v3j_YgI9EeqReLjUFR99rQ" comment="connectionComment" label="connectionLabel" dataPackage="_v3j_YwI9EeqReLjUFR99rQ" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_v3j_YwI9EeqReLjUFR99rQ" dataManager="_v3j_YgI9EeqReLjUFR99rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_v3j_ZAI9EeqReLjUFR99rQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v3j_ZQI9EeqReLjUFR99rQ" name="ID_especialidade" id="990" label="ID_especialidade" length="-1" precision="-1" sourceType="INT" talendType="id_String" key="true">
+        <initialValue xmi:id="_v3j_ZgI9EeqReLjUFR99rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v3j_ZwI9EeqReLjUFR99rQ" name="desc_especialidade" id="991" label="desc_especialidade" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_v3j_aAI9EeqReLjUFR99rQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

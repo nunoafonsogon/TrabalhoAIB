@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_KfImoQIMEeq0TdnavQlUqg" name="urg_inform_geral" dataPackage="_KfImogIMEeq0TdnavQlUqg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Nuno/Desktop/AIB/trabalho/urg_inform_geral.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_KfImogIMEeq0TdnavQlUqg" name="default" dataManager="_KfImoQIMEeq0TdnavQlUqg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_KfImowIMEeq0TdnavQlUqg" id="_pUa1kAIIEeq0TdnavQlUqg" label="dw_urg">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImpAIMEeq0TdnavQlUqg" label="URG_EPISODIO" length="50" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImpQIMEeq0TdnavQlUqg" label="DATAHORA_ADM" length="19" talendType="id_Date" pattern="&quot;dd/MM/yyyy HH:mm:ss &quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImpgIMEeq0TdnavQlUqg" label="DATAHORA_ALTA" length="19" talendType="id_Date" pattern="&quot;dd/MM/yyyy HH:mm:ss &quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImpwIMEeq0TdnavQlUqg" label="ALTA_DES_ESPECIALIDADE" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImqAIMEeq0TdnavQlUqg" label="DES_LOCAL" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImqQIMEeq0TdnavQlUqg" label="DES_PROVENIENCIA" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImqgIMEeq0TdnavQlUqg" label="SEXO" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImqwIMEeq0TdnavQlUqg" label="DTA_NASCIMENTO" length="10" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KfImrAIMEeq0TdnavQlUqg" label="DES_CAUSA" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_afT38AIHEeq0TdnavQlUqg" name="mysql_dw_urg" id="_MAyY4AIHEeq0TdnavQlUqg" label="mysql_dw_urg" dataPackage="_hfDpoAO6EeqbYrL6fzZXoQ" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/dw_urg?noDatetimeStringSync=true&amp;useSSL=false" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="jqUiPpqwiNk=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="dw_urg" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;useSSL=false" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_afT38QIHEeq0TdnavQlUqg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_agDe0AIHEeq0TdnavQlUqg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_agNP0AIHEeq0TdnavQlUqg" tag="Status" value=""/>
+    <taggedValue xmi:id="_agNP0QIHEeq0TdnavQlUqg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_agNP0gIHEeq0TdnavQlUqg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_agNP0wIHEeq0TdnavQlUqg" tag="Description" value=""/>
+    <taggedValue xmi:id="_agNP1AIHEeq0TdnavQlUqg" tag="Author" value=""/>
+    <taggedValue xmi:id="_agNP1QIHEeq0TdnavQlUqg" tag="otherParameter"/>
+    <taggedValue xmi:id="_akrgIAIHEeq0TdnavQlUqg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_akrgIQIHEeq0TdnavQlUqg" tag="DB ProductVersion" value="8.0.17"/>
+    <taggedValue xmi:id="_akrgIgIHEeq0TdnavQlUqg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_afT38gIHEeq0TdnavQlUqg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_Eqw3cAIQEeq0TdnavQlUqg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hfDpoAO6EeqbYrL6fzZXoQ" name="dw_urg" dataManager="_afT38AIHEeq0TdnavQlUqg"/>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_H62ykgI5EeqReLjUFR99rQ" comment="connectionComment" label="connectionLabel" dataPackage="_H62ykwI5EeqReLjUFR99rQ" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_H62ykwI5EeqReLjUFR99rQ" dataManager="_H62ykgI5EeqReLjUFR99rQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_H62ylAI5EeqReLjUFR99rQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_H62ylQI5EeqReLjUFR99rQ" name="ID_CAUSA" id="290" label="ID_CAUSA" length="-1" precision="-1" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_H62ylgI5EeqReLjUFR99rQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_H62ylwI5EeqReLjUFR99rQ" name="DESC_CAUSA" id="279" label="DESC_CAUSA" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_H62ymAI5EeqReLjUFR99rQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
