@@ -12,6 +12,7 @@
     <module>code/routines</module>
     <module>jobs/process/exemplo1_0.1</module>
     <module>jobs/process/dw_urg_0.1</module>
+    <module>jobs/process/tab_factos_0.1</module>
   </modules>
   <properties>
     <talend.project.name>EXEMPLO</talend.project.name>
